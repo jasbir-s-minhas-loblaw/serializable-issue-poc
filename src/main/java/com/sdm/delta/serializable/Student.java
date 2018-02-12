@@ -1,6 +1,8 @@
 package com.sdm.delta.serializable;
 
-public class Student extends Person  {
+import java.io.Serializable;
+
+public class Student extends Person {
     public static final long serialVersionUID = 1234L;
 
     private long studentId;

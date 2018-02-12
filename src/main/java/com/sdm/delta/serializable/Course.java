@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Course implements Serializable {
     private String courseName;
-    private List<Student> students = new ArrayList<>();
+    private List students = new ArrayList();
 
     public Course(String courseName) {
         this.courseName = courseName;
